@@ -17,7 +17,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
  <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
 
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -25,6 +25,9 @@
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/parallax.css">
   <link rel="stylesheet" href="css/styles.css">
+
+
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -51,7 +54,7 @@
 
 <!--Nav Bar-->
 
-  <!--<div class="navbar">
+<div class="navbar">
     <img src="images/logo.png">
     <ul>
       <li>Features</li>
@@ -59,23 +62,41 @@
       <li>Pricing</li>
     </ul>
   </div>
--->
+
+
 
 <!--Hero Banner-->
   <div class="hero">
     <section class="module parallax parallax-1">
-      <img style="width:175px; padding-bottom:24px" src="images/LogoSquare.png">
+      <img src="images/LogoSquare.png">
       <h3>One sentence statement of value.</h3>
       <img class="appstore" src="images/appstore.svg">
     </section>
   </div>
 
 <!--Features-->
-  <section class="module content">
+  <section id="startchange" class="module content">
     <h1>Features</h1>
     <div class="row">
+      <div class="four columns">
+        <div class="round feature-1"></div>
+        <h3>Feature description short and sweet.</h3>
+      </div>
+      <div class="four columns">
+        <div class="round feature-2"></div>
+        <h3>Feature description short and sweet.</h3>
+      </div>
+      <div class="four columns">
+        <div class="round feature-3"></div>
+        <h3>Feature description short and sweet.</h3>
+      </div>
+    </div>
+  </section>
+
+  <section class="module content">
+    <div class="row">
       <div class="six columns">
-        <img src="images/iphone.png">
+        <img class="responsive" src="images/iphone.png">
       </div>
       <div class="six columns">
         <ul>
@@ -102,30 +123,15 @@
     </div>
   </section>
 -->
-  <section class="module content">
-    <div class="row">
-      <div class="four columns">
-        <div class="round"></div>
-        <h3>Feature description short and sweet.</h3>
-      </div>
-      <div class="four columns">
-        <div class="round"></div>
-        <h3>Feature description short and sweet.</h3>
-      </div>
-      <div class="four columns">
-        <div class="round"></div>
-        <h3>Feature description short and sweet.</h3>
-      </div>
-    </div>
-  </section>
+
 
 <!--Testimonials-->
   <div class="hero">
     <section class="module parallax parallax-2">
       <h3>"Best app of all time. Saved my life countless times. Would gladly pay $10,000/mo, but they're only charging $5!"</h3>
-      <div class="round"></div>
+      <div class="round testimonial"></div>
       <h3>Bill Hope</h3>
-      <p>CFO of 5 Degrees</p>
+      <h3>CFO of 5 Degrees</h3>
     </section>
   </div>  
 
@@ -134,22 +140,27 @@
     <h1>Pricing Plan</h1>
     <div class="row">
       <div class="six columns">
-        <img src="images/customer.png">
+        <img class="responsive" src="images/customer.png">
       </div>
       <div class="six columns">
         <h1>$4.99/mo</h1>
         <h3>no strings attached</h3>
         <h3>Contact us for a free demo.</h3>
+        <img class="appstore" src="images/appstore.svg">
       </div>
     </div>
   </section>
 
-<!--Footer-->
-  <div class="footer">
-    <h3>footer</h3>
-  </div>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- JS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- jQuery Version 1.11.0 -->
+  <script src="js/jquery-1.11.0.js"></script>
+
+    <!--Navbar-->
+  <script src="js/navbar.js"> </script> 
+
 </body>
 </html>

@@ -33,6 +33,7 @@ section.module.parallax {
 
 section.module.parallax-1 {
   background-image: url("../images/background.png");
+  height: 60%;
 }
 section.module.parallax-2 {
   background-image: url("../images/background2.png");
@@ -47,16 +48,16 @@ section.module.parallax-3 {
 @media(max-width:767px) {
 section.module.parallax-1 {
   height: 100%;
-  background-color: #2d2d2d;
+  background-color: #1E3E8F;
   background-image: url("../img/internetmobile.png");
 }
 section.module.parallax-2 {
-  background-color: #000000;
+  background-color: #1E3E8F;
   background-image: none;;
 }
 section.module.parallax-3 {
   height: 40%;
-  background-color: #000000;
+  background-color: #1E3E8F;
   background-image: none;;
 }
 
